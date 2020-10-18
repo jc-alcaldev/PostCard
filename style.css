@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.container{
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-left: 350px;
+    margin-right: 350px;  
+    font-style: italic;
+    background-color: white; 
+} 
+h1{
+    width: 300px;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+.header{
+    height: 70px;
+}
+img{
+    height: 65px;
+    float: right;
+    padding-right: 5px;
+}
+.text{
+    width: 250px; 
+}
+.input{
+    width: 250px;
+}
+button{
+    text-align: center;
+    background-color: gray;
+    margin-bottom: 30px;
+    margin-left: 250px;
+}
+@media (max-width: 600px) {
+  .text1, .input {
+    width: 100%;
+    height: auto;
+  }
+}
